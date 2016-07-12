@@ -8,106 +8,135 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-	<!-- Description section -->
-	<section class="description">
-		Description
-		<div class="pokemon-image">
-			<img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" class="img-responsive" alt="Bulbasaur">
-		</div>
-		<div class="pokemon-number">
-			#001
-		</div>
-		<div class="pokemon-name">
-			Bulbasaur
-		</div>
-		<div class="pokemon-height-weight">
-			0.7m, 6.9kg
-		</div>
-		<div class="pokemon-description">
-			Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
-		</div>
-		<div class="pokemon-types">
-			<span class="label label-default">Grass</span>
-			<span class="label label-default">Poison</span>
-			<span class="label label-default">Bug</span>
-		</div>
-		<div class="pokeball-icons"></div>
-	</section>
+<div class="container-fluid">
+	<div class="row">
+	
+		<!-- Description section -->
+		<section class="description">
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <p class="navbar-text">Description</p>
+			  </div>
+			</nav>
+			<div class="col-xs-4">
+				<div class="pokemon-image">
+					<img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" class="img-responsive" alt="Bulbasaur">
+				</div>
+			</div>
+			<div class="xs-8">
+				<div class="pokemon-number">
+					#001
+				</div>
+				<div class="pokemon-name">
+					Bulbasaur
+				</div>
+				<div class="pokemon-height-weight">
+					0.7m, 6.9kg
+				</div>
+				<div class="pokemon-description">
+					Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+				</div>
+				<div class="pokemon-types">
+					<span class="label label-default">Grass</span>
+					<span class="label label-default">Poison</span>
+					<span class="label label-default">Bug</span>
+				</div>
+				<div class="pokeball-icons"></div>
+			</div>
+		</section>
 
-	<!-- General Information Section -->
-	<section class="information">
-		General Information
-		<div class="pokemon-hidden-abilities">
-			Hidden Abilities
-			Clorophyll
-		</div>
-		<div class="pokemon-location">
-			Location
-			Lumiose City
-		</div>
-	</section>
+		<!-- General Information Section -->
+		<section class="information">
+			General Information
+			<table class="table">
+			  <tbody>
+			  	<tr>
+			  		<td>Hidden Abilities</td>
+			  		<td>Clorophyll</td>
+			  	</tr>
+			  	<tr>
+			  		<td>Location</td>
+			  		<td>Lumiose City</td>
+			  	</tr>
+			  </tbody>
+			</table>
+			<div class="pokemon-hidden-abilities">
+				
+				
+			</div>
+			<div class="pokemon-location">
+				
+				
+			</div>
+		</section>
 
-	<!-- Evolution Section (list)-->
-	<section class="evolution">
-		Evolution
-		<div class="pokemon-evolution">
-			<div class="pevolution-image">
-				<img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" alt="Bulbasaur">
+		<!-- Evolution Section (list)-->
+		<section class="evolution">
+			Evolution
+			<div class="pokemon-evolution">
+				<table class="table">
+				  <tbody>
+				  	<tr>
+				  		<td class="col-xs-3"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" alt="Bulbasaur"></td>
+				  		<td class="col-xs-9">
+				  			<div class="pevolution-name">
+								Bulbasaur
+							</div>
+							<div class="pevolution-level"></div>
+							<div class="pevolution-number">
+								#001
+							</div>
+							<div class="pevolution-types">
+								<span class="label label-default">Grass</span>
+								<span class="label label-default">Poison</span>
+								<span class="label label-default">Bug</span>
+							</div>
+				  		</td>
+				  	</tr>
+				  	<tr>
+				  		<td class="col-xs-3"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif" alt="Ivisaur"></td>
+				  		<td class="col-xs-9">
+				  			<div class="pevolution-name">
+								Ivysaur
+							</div>
+							<div class="pevolution-level">
+								LV. 16
+							</div>
+							<div class="pevolution-number">
+								#002
+							</div>
+							<div class="pevolution-types">
+								<span class="label label-default">Grass</span>
+								<span class="label label-default">Poison</span>
+								<span class="label label-default">Bug</span>
+							</div>
+				  		</td>
+				  	</tr>
+				  	<tr>
+				  		<td class="col-xs-3"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif" alt="Venusaur"></td>
+				  		<td class="col-xs-9">
+				  			<div class="pevolution-name">
+								Venusaur
+							</div>
+							<div class="pevolution-level">
+								LV. 32
+							</div>
+							<div class="pevolution-number">
+								#003
+							</div>
+							<div class="pevolution-types">
+								<span class="label label-default">Grass</span>
+								<span class="label label-default">Poison</span>
+								<span class="label label-default">Bug</span>
+							</div>
+				  		</td>
+				  	</tr>
+				  </tbody>
+				</table>				
 			</div>
-			<div class="pevolution-name">
-				Bulbasaur
-			</div>
-			<div class="pevolution-level"></div>
-			<div class="pevolution-number">
-				#001
-			</div>
-			<div class="pevolution-types">
-				<span class="label label-default">Grass</span>
-				<span class="label label-default">Poison</span>
-				<span class="label label-default">Bug</span>
-			</div>
-		</div>
-		<div class="pokemon-evolution">
-			<div class="pevolution-image">
-				<img src="https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif" alt="Ivisaur">
-			</div>
-			<div class="pevolution-name">
-				Ivysaur
-			</div>
-			<div class="pevolution-level">
-				LV. 16
-			</div>
-			<div class="pevolution-number">
-				#002
-			</div>
-			<div class="pevolution-types">
-				<span class="label label-default">Grass</span>
-				<span class="label label-default">Poison</span>
-				<span class="label label-default">Bug</span>
-			</div>
-		</div>
-		<div class="pokemon-evolution">
-			<div class="pevolution-image">
-				<img src="https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif" alt="Venusaur">
-			</div>
-			<div class="pevolution-name">
-				Venusaur
-			</div>
-			<div class="pevolution-level">
-				LV. 32
-			</div>
-			<div class="pevolution-number">
-				#003
-			</div>
-			<div class="pevolution-types">
-				<span class="label label-default">Grass</span>
-				<span class="label label-default">Poison</span>
-				<span class="label label-default">Bug</span>
-			</div>
-		</div>
-	</section>
-
-
+		</section>
+	</div>
+</div>
 </body>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 </html>
